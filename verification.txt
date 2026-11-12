@@ -1,0 +1,25 @@
+✔ demo exposes expected independent regression and improvement totals (3.895092ms)
+✔ tool authorization checks fail an executed refund even when the amount is correct (0.262659ms)
+✔ text checks ignore case but preserve the actual evidence (0.20427ms)
+✔ event matches are exact, so similarly named tools do not satisfy a rule (0.166533ms)
+✔ latency and cost boundaries are inclusive (0.186924ms)
+✔ all criteria must pass; one correct criterion does not mask an error (0.168316ms)
+✔ review notes cannot be empty or whitespace only (0.878934ms)
+✔ review is immutable and keeps successive judgments (0.565779ms)
+✔ content changes invalidate the current review (0.431995ms)
+✔ export/import roundtrip preserves cases and review evidence (0.697278ms)
+✔ duplicate case import is rejected (0.452837ms)
+✔ unknown rules and invalid metrics are rejected before mutation (1.211409ms)
+✔ malformed workspace, invalid review decision and unrelated case are rejected (0.425636ms)
+✔ authoring supports a new custom case and rejects duplicate IDs (0.345675ms)
+✔ empty suite has zero denominators and no misleading pass rate (0.168456ms)
+✔ fixture fingerprint includes rubric and output changes (0.152822ms)
+✔ size bounds prevent unbounded input growth (0.253294ms)
+ℹ tests 17
+ℹ suites 0
+ℹ pass 17
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 115.98354
